@@ -180,17 +180,17 @@ footer {
 }
 
 .logo .icon img {
-    position: relative;
-    top: 5px;
-    right: 5px;
     width: 30px;
     height: 30px;
+    display: grid;
+    margin-right: 5px;
+    place-items: center;
     border-radius: 50%;
-    object-fit: cover;
-}
+}*/
 
 .logo span:last-child {
     color: #00d4ff;
 }
+
 
 
