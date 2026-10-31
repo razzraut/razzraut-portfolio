@@ -172,7 +172,6 @@ footer {
 .logo {
     display: inline-flex;
     align-items: center;
-    /* gap: 10px; */
     text-decoration: none;
     font-size: 26px;
     font-weight: 700;
@@ -182,11 +181,11 @@ footer {
 .logo .icon img {
     width: 30px;
     height: 30px;
-    display: grid;
+    display: block;
     margin-right: 5px;
-    place-items: center;
     border-radius: 50%;
-}*/
+    object-fit: cover;
+}
 
 .logo span:last-child {
     color: #00d4ff;
